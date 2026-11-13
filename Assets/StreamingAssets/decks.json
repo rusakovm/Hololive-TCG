@@ -1,0 +1,1719 @@
+[
+  {
+    "Id": "TEST_DECK",
+    "Name": "Test Deck",
+    "OshiCardId": "hSD01-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP01-021",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-044",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-011",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-012",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-021",
+        "Count": 1
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-007",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-009",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-006",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-013",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-014",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-018",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-015",
+        "Count": 1
+      },
+      {
+        "CardId": "hSD01-019",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-MASCOT-001",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-MASCOT-SORA",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-TOOL-001",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-FAN-001",
+        "Count": 1
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 10
+      },
+      {
+        "Color": "Green",
+        "Count": 10
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 20,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "hSD01_SORAZ",
+    "Name": "Tokino Sora & AZKi (official rules)",
+    "OshiCardId": "hSD01-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP01-021",
+        "Count": 5
+      },
+      {
+        "CardId": "hBP01-044",
+        "Count": 5
+      },
+      {
+        "CardId": "hSD01-004",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-007",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-009",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-014",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-015",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-005",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-010",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-013",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-006",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-011",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-018",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-019",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-020",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-021",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 10
+      },
+      {
+        "Color": "Green",
+        "Count": 10
+      }
+    ]
+  },
+  {
+    "Id": "hSD02_AYAME",
+    "Name": "Red Nakiri Ayame (official rules)",
+    "OshiCardId": "hSD02-001",
+    "MainDeck": [
+      {
+        "CardId": "hSD02-002",
+        "Count": 6
+      },
+      {
+        "CardId": "hSD02-003",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-004",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-010",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD02-011",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD02-005",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-006",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-007",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-008",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD02-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-013",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD02-014",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD02-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-018",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Red",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hSD03_OKAYU",
+    "Name": "Blue Nekomata Okayu (official rules)",
+    "OshiCardId": "hSD03-001",
+    "MainDeck": [
+      {
+        "CardId": "hSD03-002",
+        "Count": 5
+      },
+      {
+        "CardId": "hSD03-003",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-004",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-005",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-006",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-007",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-008",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD03-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-013",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD03-014",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-019",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-105",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-108",
+        "Count": 1
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Blue",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP02_CALLIOPE",
+    "Name": "Purple Mori Calliope (archive)",
+    "OshiCardId": "hBP02-007",
+    "MainDeck": [
+      {
+        "CardId": "hBP02-054",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-055",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-056",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-057",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-058",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-059",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-061",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP02-062",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-063",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-064",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-072",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-079",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Purple",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP02_MARINE",
+    "Name": "Red Houshou Marine (re-bloom)",
+    "OshiCardId": "hBP02-003",
+    "MainDeck": [
+      {
+        "CardId": "hBP02-027",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-028",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-029",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-030",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-031",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-032",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-002",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-003",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-005",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-073",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-085",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-095",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-108",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Red",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP02_REINE",
+    "Name": "Green Pavolia Reine (cheer colors)",
+    "OshiCardId": "hBP02-002",
+    "MainDeck": [
+      {
+        "CardId": "hBP02-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-018",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-019",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-020",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-021",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-022",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-023",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-081",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-094",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-070",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-071",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-108",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Green",
+        "Count": 14
+      },
+      {
+        "Color": "White",
+        "Count": 3
+      },
+      {
+        "Color": "Red",
+        "Count": 3
+      }
+    ]
+  },
+  {
+    "Id": "hBP02_FUBUKI",
+    "Name": "White Shirakami Fubuki (mascots)",
+    "OshiCardId": "hBP02-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP02-008",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-010",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-011",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-012",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-013",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-089",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-091",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-099",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-075",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-082",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP06_RAORA",
+    "Name": "White Raora Panthera (collab support)",
+    "OshiCardId": "hBP06-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-010",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-011",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-012",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-013",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-014",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-100",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-085",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-089",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-108",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP06_RIONA",
+    "Name": "White Isaki Riona (self-mill)",
+    "OshiCardId": "hBP06-002",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-015",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP06-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-018",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-019",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-020",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-085",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-108",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-090",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP06_AYAME",
+    "Name": "Red Nakiri Ayame (cheer burn)",
+    "OshiCardId": "hBP06-004",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-034",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-035",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-036",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-037",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-038",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-039",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-098",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-012",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD02-013",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Red",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP06_MATSURI",
+    "Name": "Yellow Natsuiro Matsuri (support storm)",
+    "OshiCardId": "hBP06-008",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-072",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-073",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-074",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-075",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-076",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-077",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-102",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-103",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-091",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-092",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-093",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Yellow",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP06_MOONA",
+    "Name": "Blue Moona Hoshinova (special damage)",
+    "OshiCardId": "hBP06-006",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-048",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-049",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-050",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-051",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-052",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-053",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-101",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD03-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-105",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Blue",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP03_LUNA",
+    "Name": "White Himemori Luna (fans)",
+    "OshiCardId": "hBP03-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP03-009",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP03-010",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-011",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-012",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-013",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-014",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-105",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-095",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-086",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP03-090",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP03_BOTAN",
+    "Name": "Green Shishiro Botan (shooter)",
+    "OshiCardId": "hBP03-002",
+    "MainDeck": [
+      {
+        "CardId": "hBP03-016",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP03-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-018",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-019",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-020",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-021",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-106",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-096",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP03-094",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-090",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 3
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Green",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP03_MIKO",
+    "Name": "Red Sakura Miko (dice)",
+    "OshiCardId": "hBP03-003",
+    "MainDeck": [
+      {
+        "CardId": "hBP03-025",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP03-026",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-027",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-028",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-029",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-030",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-107",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-098",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP03-099",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-090",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Red",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP03_FUWAMOCO",
+    "Name": "Blue FUWAMOCO (sisters)",
+    "OshiCardId": "hBP03-004",
+    "MainDeck": [
+      {
+        "CardId": "hBP03-040",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP03-041",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-042",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-043",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-046",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-047",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-048",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-109",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-090",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Blue",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP03_TOWA",
+    "Name": "Purple Tokoyami Towa (Roboser)",
+    "OshiCardId": "hBP03-005",
+    "MainDeck": [
+      {
+        "CardId": "hBP03-051",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP03-052",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-053",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-054",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-055",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-056",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-057",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-058",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-110",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Purple",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP03_WATAME",
+    "Name": "Yellow Tsunomaki Watame (cheer)",
+    "OshiCardId": "hBP03-007",
+    "MainDeck": [
+      {
+        "CardId": "hBP03-067",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP03-068",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-069",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-070",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-071",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-072",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-112",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-087",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-090",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Yellow",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hBP03_RISU",
+    "Name": "Yellow Ayunda Risu (cheer move)",
+    "OshiCardId": "hBP03-008",
+    "MainDeck": [
+      {
+        "CardId": "hBP03-073",
+        "Count": 6
+      },
+      {
+        "CardId": "hBP03-074",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-075",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-076",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-077",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-078",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-113",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP03-087",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-091",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Yellow",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hSD13_ELIZABETH",
+    "Name": "Red Elizabeth Rose Bloodflame (Justice)",
+    "OshiCardId": "hSD13-001",
+    "MainDeck": [
+      {
+        "CardId": "hSD13-003",
+        "Count": 6
+      },
+      {
+        "CardId": "hSD13-004",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD13-005",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD13-006",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD13-007",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD13-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD13-018",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD13-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP03-085",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP03-090",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Red",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hEB01_SORA",
+    "Name": "Red Tokino Sora (summer)",
+    "OshiCardId": "hEB01-001",
+    "MainDeck": [
+      {
+        "CardId": "hEB01-004",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-005",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-006",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-007",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-008",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-010",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-032",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-033",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-025",
+        "Count": 2
+      },
+      {
+        "CardId": "hEB01-027",
+        "Count": 2
+      },
+      {
+        "CardId": "hEB01-030",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Red",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hEB01_MARINE",
+    "Name": "Blue Houshou Marine (summer)",
+    "OshiCardId": "hEB01-002",
+    "MainDeck": [
+      {
+        "CardId": "hEB01-011",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-012",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-013",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-014",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-015",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-026",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-029",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-031",
+        "Count": 2
+      },
+      {
+        "CardId": "hEB01-033",
+        "Count": 2
+      },
+      {
+        "CardId": "hEB01-030",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Blue",
+        "Count": 20
+      }
+    ]
+  },
+  {
+    "Id": "hEB01_KOYORI",
+    "Name": "Yellow Hakui Koyori (summer)",
+    "OshiCardId": "hEB01-003",
+    "MainDeck": [
+      {
+        "CardId": "hEB01-018",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-019",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-020",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-021",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-022",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-023",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-024",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-034",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-028",
+        "Count": 4
+      },
+      {
+        "CardId": "hEB01-027",
+        "Count": 2
+      },
+      {
+        "CardId": "hEB01-031",
+        "Count": 2
+      },
+      {
+        "CardId": "hEB01-025",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 4
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Yellow",
+        "Count": 20
+      }
+    ]
+  }
+]

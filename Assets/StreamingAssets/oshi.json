@@ -1,0 +1,1807 @@
+[
+  {
+    "Id": "hSD01-001",
+    "Name": "Tokino Sora",
+    "Color": "White",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Replacement",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "MoveAttachedCheer",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": []
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "So, that Makes You My Enemy?",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "SwapEnemyCenterWithBack",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": []
+        },
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 50,
+          "Target": "FriendlyCenter",
+          "Conditions": [
+            {
+              "Type": "CardColorIs",
+              "Amount": 0,
+              "Color": "White"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hSD01-002",
+    "Name": "AZKi",
+    "Color": "Green",
+    "Life": 6,
+    "OshiSkill": {
+      "Name": "A Map in My Left Hand",
+      "HoloPowerCost": 3,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "DeclareDieResult",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": []
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "A Mic in My Right Hand",
+      "HoloPowerCost": 3,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 0,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [
+            {
+              "Type": "CardColorIs",
+              "Amount": 0,
+              "Color": "Green"
+            }
+          ],
+          "AllowedColors": []
+        }
+      ]
+    }
+  },
+  {
+    "Id": "TEST-OSHI-001",
+    "Name": "Test Oshi",
+    "Color": "White",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Test Power",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "DrawCards",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": []
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Test SP Power",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "Heal",
+          "Amount": 50,
+          "Target": "FriendlyCenter",
+          "Conditions": []
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hSD03-001",
+    "Name": "Nekomata Okayu",
+    "Color": "Blue",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Blue Microphone",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 20,
+          "Target": "FriendlyCenter",
+          "Conditions": [
+            {
+              "Type": "CardColorIs",
+              "Amount": 0,
+              "Color": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Strike Back",
+      "HoloPowerCost": 1,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Usage": "AfterDamagingEnemyBack",
+      "Effects": [
+        {
+          "Type": "DealDamage",
+          "Amount": 50,
+          "Target": "EnemyBack",
+          "Conditions": [],
+          "NoLifeLoss": true
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hSD02-001",
+    "Name": "Nakiri Ayame",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Red Microphone",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 20,
+          "Target": "FriendlyCenter",
+          "Conditions": [
+            {
+              "Type": "CardColorIs",
+              "Amount": 0,
+              "Color": "Red"
+            }
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Now! Once More!",
+      "HoloPowerCost": 1,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Archive",
+          "DestinationZone": "Hand",
+          "MinSelect": 1,
+          "MaxSelect": 1,
+          "AllowedTypes": [
+            "Holomem"
+          ],
+          "AllowedColors": [
+            "Red"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP02-001",
+    "Name": "Shirakami Fubuki",
+    "Color": "White",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Mascot Creation",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Deck",
+          "DestinationZone": "Hand",
+          "MinSelect": 1,
+          "MaxSelect": 1,
+          "AllowedTypes": [
+            "Support"
+          ],
+          "AllowedSupportTypes": [
+            "Mascot"
+          ],
+          "ShuffleAfter": true
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "FBKINGDOM",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Deck",
+          "DestinationZone": "Attached",
+          "MinSelect": 1,
+          "MaxSelect": 2,
+          "ShuffleAfter": true,
+          "AllowedTypes": [
+            "Support"
+          ],
+          "AllowedSupportTypes": [
+            "Mascot"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP02-002",
+    "Name": "Pavolia Reine",
+    "Color": "Green",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "HALU",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "ArchiveCheerFromStage",
+          "Amount": 1,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "AllowedColors": [
+            "Green"
+          ],
+          "IsCost": true
+        },
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 1,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "SourceZone": "DeckTop",
+          "ShuffleAfter": true
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Vibrant Banquet",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 3,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "SourceZone": "Archive"
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP02-003",
+    "Name": "Houshou Marine",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Ahoy!",
+      "HoloPowerCost": 3,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "GrantBloom",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": [],
+          "BloomIgnoreUsed": true,
+          "BloomTag": "#Gen 3"
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Set Sail~!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 50,
+          "Target": "FriendlyCenter",
+          "Conditions": [],
+          "AllowedTags": [
+            "#Gen 3"
+          ]
+        },
+        {
+          "Type": "DrawCards",
+          "Amount": 2,
+          "Target": "None",
+          "Conditions": []
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP02-004",
+    "Name": "Sakamata Chloe",
+    "Color": "Blue",
+    "Life": 6,
+    "OshiSkill": {
+      "Name": "Poe Poe Poe~",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 3,
+          "Target": "None",
+          "Conditions": [
+            {
+              "Type": "CenterHasCardName",
+              "Amount": 0,
+              "CardName": "Sakamata Chloe"
+            }
+          ],
+          "SourceZone": "DeckTop",
+          "DestinationZone": "Archive",
+          "RemainderZone": "DeckTop",
+          "MinSelect": 0,
+          "MaxSelect": 3
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Life Reset Button",
+      "HoloPowerCost": 3,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 5,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "DeckTop",
+          "DestinationZone": "Archive",
+          "MinSelect": 5,
+          "MaxSelect": 5
+        },
+        {
+          "Type": "DrawCards",
+          "Amount": 3,
+          "Target": "None",
+          "Conditions": []
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP02-005",
+    "Name": "Murasaki Shion",
+    "Color": "Purple",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Heeeyyyyy",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "RerollDie",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": []
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Shion's Amazing Magic",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "RollDie",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "Outcomes": [
+            {
+              "Match": "AtLeast",
+              "Value": 4,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "DealDamage",
+                  "Amount": 50,
+                  "Target": "EnemyCenterOrCollab",
+                  "Conditions": [],
+                  "NoLifeLoss": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP02-006",
+    "Name": "Kureiji Ollie",
+    "Color": "Purple",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Zombie Tactics",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "GrantBloom",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": [],
+          "BloomFromArchive": true,
+          "BloomTag": "#ID Gen 2"
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Ollie Revives",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "DrawCards",
+          "Amount": 4,
+          "Target": "None",
+          "Conditions": []
+        },
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Hand",
+          "DestinationZone": "Archive",
+          "MinSelect": 2,
+          "MaxSelect": 2,
+          "IsCost": true
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP02-007",
+    "Name": "Mori Calliope",
+    "Color": "Purple",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Sampling",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Hand",
+          "DestinationZone": "Archive",
+          "MinSelect": 2,
+          "MaxSelect": 2,
+          "IsCost": true
+        },
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Archive",
+          "DestinationZone": "Hand",
+          "MinSelect": 2,
+          "MaxSelect": 2,
+          "AllowedTypes": [
+            "Holomem"
+          ],
+          "AllowedTags": [
+            "#EN"
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Reaper's Rap",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 40,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "AllowedTags": [
+            "#Myth"
+          ],
+          "MultiplyByDistinctStageNames": true
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hSD13-001",
+    "Name": "Elizabeth Rose Bloodflame",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Harbinger of Order",
+      "HoloPowerCost": 3,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "BonusDamage",
+          "Amount": 0,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "AllowedColors": [
+            "Red"
+          ],
+          "AllowedLevels": [
+            "Second"
+          ]
+        }
+      ],
+      "Usage": "WhenTakingArtsDamage"
+    },
+    "SpOshiSkill": {
+      "Name": "JUST LIKE THAT",
+      "HoloPowerCost": 3,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Archive",
+          "DestinationZone": "BackStage",
+          "MinSelect": 1,
+          "MaxSelect": 1,
+          "AllowedTypes": [
+            "Holomem"
+          ],
+          "AllowedTags": [
+            "#Justice"
+          ]
+        },
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 1,
+          "Target": "FriendlyBack",
+          "Conditions": [],
+          "SourceZone": "Archive"
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hSD13-002",
+    "Name": "Gigi Murin",
+    "Color": "Yellow",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Boat Goes Binted",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SwapEnemyCenterWithBack",
+          "Amount": 1,
+          "Target": "EnemyCollab",
+          "Conditions": []
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Free-Spirited Chaser",
+      "HoloPowerCost": 3,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Deck",
+          "DestinationZone": "BackStage",
+          "MinSelect": 1,
+          "MaxSelect": 2,
+          "AllowedTypes": [
+            "Holomem"
+          ],
+          "AllowedNames": [
+            "Gigi Murin"
+          ],
+          "AllowedLevels": [
+            "Second"
+          ],
+          "ShuffleAfter": true
+        },
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 1,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "SourceZone": "Archive"
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-001",
+    "Name": "Raora Panthera",
+    "Color": "White",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "BIG CAT Means...",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [
+            {
+              "Type": "CenterHasCardName",
+              "Amount": 0,
+              "CardName": "Raora Panthera"
+            }
+          ],
+          "SourceZone": "Deck",
+          "DestinationZone": "Hand",
+          "MinSelect": 1,
+          "MaxSelect": 1,
+          "ShuffleAfter": true,
+          "AllowedTypes": [
+            "Holomem"
+          ],
+          "MatchCollabName": true
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "BIG TROUBLE!!",
+      "HoloPowerCost": 1,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "GrantNoRest",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "AllowedNames": [
+            "Raora Panthera"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-002",
+    "Name": "Isaki Riona",
+    "Color": "White",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "I'll Do What I Like",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 2,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "DeckTop",
+          "DestinationZone": "Archive",
+          "MinSelect": 2,
+          "MaxSelect": 2
+        },
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 20,
+          "Target": "FriendlyCenter",
+          "Conditions": [],
+          "AllowedTags": [
+            "#FLOW GLOW"
+          ]
+        },
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 20,
+          "Target": "FriendlyCollab",
+          "Conditions": [],
+          "AllowedTags": [
+            "#FLOW GLOW"
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "And Live How I Want to!",
+      "HoloPowerCost": 1,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "DealDamage",
+          "Amount": 0,
+          "Target": "EnemyCenter",
+          "Conditions": [],
+          "NoLifeLoss": false
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-003",
+    "Name": "Kazama Iroha",
+    "Color": "Green",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Start by Taking Action If You're Lost!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 1,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "SourceZone": "DeckTop",
+          "ShuffleAfter": true,
+          "AllowedNames": [
+            "Kazama Iroha"
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Unlimited Strength, I Daresay",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 10,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "AllowedNames": [
+            "Kazama Iroha"
+          ],
+          "MultiplyByCheerColors": true
+        },
+        {
+          "Type": "DrawCards",
+          "Amount": 3,
+          "Target": "None",
+          "Conditions": [
+            {
+              "Type": "StageCheerAtLeast",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-004",
+    "Name": "Nakiri Ayame",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Oni Inferno",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "ArchiveCheerDeckTop",
+          "Amount": 2,
+          "Target": "None",
+          "Conditions": [],
+          "IsCost": true
+        },
+        {
+          "Type": "DrawCards",
+          "Amount": 2,
+          "Target": "None",
+          "Conditions": []
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Two Blades Strike as One! Oni Cleave",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "DealDamage",
+          "Amount": 20,
+          "Target": "EnemyCenterOrCollab",
+          "Conditions": [],
+          "NoLifeLoss": true,
+          "MultiplyByCostCount": true
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-005",
+    "Name": "Hakos Baelz",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Embodiment of Chaos",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "RollDie",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [
+            {
+              "Type": "SpOshiSkillUsed",
+              "Amount": 0
+            }
+          ],
+          "Outcomes": [
+            {
+              "Match": "Exactly",
+              "Value": 1,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "DrawCards",
+                  "Amount": 1,
+                  "Target": "None",
+                  "Conditions": []
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 2,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "DrawCards",
+                  "Amount": 2,
+                  "Target": "None",
+                  "Conditions": []
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 3,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "DrawCards",
+                  "Amount": 3,
+                  "Target": "None",
+                  "Conditions": []
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 4,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "DrawCards",
+                  "Amount": 4,
+                  "Target": "None",
+                  "Conditions": []
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 5,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "DrawCards",
+                  "Amount": 5,
+                  "Target": "None",
+                  "Conditions": []
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 6,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "DrawCards",
+                  "Amount": 6,
+                  "Target": "None",
+                  "Conditions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "🎲",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "RollDie",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "Outcomes": [
+            {
+              "Match": "Exactly",
+              "Value": 1,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 0,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "Hand",
+                  "DestinationZone": "Archive",
+                  "MinSelect": 1,
+                  "MaxSelect": 1
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 2,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 0,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "Hand",
+                  "DestinationZone": "Archive",
+                  "MinSelect": 2,
+                  "MaxSelect": 2
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 3,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 0,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "Hand",
+                  "DestinationZone": "Archive",
+                  "MinSelect": 3,
+                  "MaxSelect": 3
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 4,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 0,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "Hand",
+                  "DestinationZone": "Archive",
+                  "MinSelect": 4,
+                  "MaxSelect": 4
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 5,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 0,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "Hand",
+                  "DestinationZone": "Archive",
+                  "MinSelect": 5,
+                  "MaxSelect": 5
+                }
+              ]
+            },
+            {
+              "Match": "Exactly",
+              "Value": 6,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 0,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "Hand",
+                  "DestinationZone": "Archive",
+                  "MinSelect": 6,
+                  "MaxSelect": 6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-006",
+    "Name": "Moona Hoshinova",
+    "Color": "Blue",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Bright as the Full Moon",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "DealDamage",
+          "Amount": 20,
+          "Target": "EnemyCenter",
+          "Conditions": [],
+          "NoLifeLoss": true
+        },
+        {
+          "Type": "DealDamage",
+          "Amount": 20,
+          "Target": "EnemyCollab",
+          "Conditions": [],
+          "NoLifeLoss": true
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Chorus of the Twin Moons",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 3,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [
+            {
+              "Type": "StageCheerAtLeast",
+              "Amount": 6
+            }
+          ],
+          "SourceZone": "DeckTop",
+          "ShuffleAfter": true,
+          "AllowedTags": [
+            "#ID Gen 1"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-007",
+    "Name": "Robocosan",
+    "Color": "Purple",
+    "Life": 6,
+    "OshiSkill": {
+      "Name": "I'm Not Broken!!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 2,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "DeckTop",
+          "DestinationZone": "Archive",
+          "MinSelect": 2,
+          "MaxSelect": 2
+        },
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Archive",
+          "DestinationZone": "Hand",
+          "MinSelect": 1,
+          "MaxSelect": 1,
+          "AllowedTypes": [
+            "Holomem"
+          ],
+          "AllowedNames": [
+            "Robocosan"
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Prepare to Be Dazzled by My \"High-Spec\"",
+      "HoloPowerCost": 1,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "DrawCards",
+          "Amount": 2,
+          "Target": "None",
+          "Conditions": []
+        },
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Hand",
+          "DestinationZone": "Archive",
+          "MinSelect": 2,
+          "MaxSelect": 2
+        },
+        {
+          "Type": "SelectCards",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "SourceZone": "Archive",
+          "DestinationZone": "Attached",
+          "MinSelect": 1,
+          "MaxSelect": 3,
+          "AllowedNames": [
+            "Roboser"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP06-008",
+    "Name": "Natsuiro Matsuri",
+    "Color": "Yellow",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Festival Wasshoi!!!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "RollDie",
+          "Amount": 0,
+          "Target": "None",
+          "Conditions": [],
+          "Outcomes": [
+            {
+              "Match": "AtLeast",
+              "Value": 4,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 0,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "Deck",
+                  "DestinationZone": "Hand",
+                  "MinSelect": 1,
+                  "MaxSelect": 1,
+                  "ShuffleAfter": true
+                }
+              ]
+            },
+            {
+              "Match": "AtMost",
+              "Value": 3,
+              "Bonus": 0,
+              "Effects": [
+                {
+                  "Type": "SelectCards",
+                  "Amount": 1,
+                  "Target": "None",
+                  "Conditions": [],
+                  "SourceZone": "DeckTop",
+                  "DestinationZone": "HoloPower",
+                  "MinSelect": 1,
+                  "MaxSelect": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "I Absolutely Want to Win!!!!!!!",
+      "HoloPowerCost": 1,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": [
+        {
+          "Type": "DrawCards",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": [
+            {
+              "Type": "CenterHasCardName",
+              "Amount": 0,
+              "CardName": "Natsuiro Matsuri"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP03-001",
+    "Name": "Himemori Luna",
+    "Color": "White",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "I Know How to Use a Computew!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Lu-knights, Assemble",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP03-002",
+    "Name": "Shishiro Botan",
+    "Color": "Green",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "poi",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Sniping",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP03-003",
+    "Name": "Sakura Miko",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Are 35P Making a Comeback?!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "The Strength to not Give Up",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP03-004",
+    "Name": "FUWAMOCO",
+    "Color": "Blue",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Moco-chan!",
+      "HoloPowerCost": 3,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "BAU BAU!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP03-005",
+    "Name": "Tokoyami Towa",
+    "Color": "Purple",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Devil's Voice",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Diabolical Deeds",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP03-006",
+    "Name": "Inugami Korone",
+    "Color": "Yellow",
+    "Life": 6,
+    "OshiSkill": {
+      "Name": "Infinite Stamina",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Wow Wow Wow Wow",
+      "HoloPowerCost": 3,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP03-007",
+    "Name": "Tsunomaki Watame",
+    "Color": "Yellow",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Welcome to the Member Sheep!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Watame isn't at fault, right?",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP03-008",
+    "Name": "Ayunda Risu",
+    "Color": "Yellow",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "hololive ID Family",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Ganbari Risu~!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hEB01-001",
+    "Name": "Tokino Sora",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Sudden Romance",
+      "HoloPowerCost": 4,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "GrantBloom",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": [],
+          "BloomFromDeck": true,
+          "BloomIgnoreUsed": true,
+          "AllowedNames": [
+            "Tokino Sora"
+          ]
+        },
+        {
+          "Type": "ReduceArtsCost",
+          "Amount": 1,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [],
+          "AllowedNames": [
+            "Tokino Sora"
+          ]
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Oshi Skill",
+      "HoloPowerCost": 0,
+      "OncePerTurn": false,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "StageSkill": {
+      "Name": "Seaside Venus",
+      "HoloPowerCost": 0,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "SelectCards",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": [
+            {
+              "Type": "CenterHasCardName",
+              "Amount": 0,
+              "CardName": "Tokino Sora"
+            }
+          ],
+          "SourceZone": "DeckTop",
+          "DestinationZone": "HoloPower",
+          "MinSelect": 1,
+          "MaxSelect": 1
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hEB01-002",
+    "Name": "Houshou Marine",
+    "Color": "Blue",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Uh, Was That a Little Too Spicy for You?",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "DealDamage",
+          "Amount": 50,
+          "Target": "EnemyBack",
+          "Conditions": [],
+          "NoLifeLoss": true
+        },
+        {
+          "Type": "DealDamage",
+          "Amount": 50,
+          "Target": "EnemyBack",
+          "Conditions": [
+            {
+              "Type": "CenterBloomStackAtLeast",
+              "Amount": 3
+            }
+          ],
+          "NoLifeLoss": true
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Oshi Skill",
+      "HoloPowerCost": 0,
+      "OncePerTurn": false,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "StageSkill": {
+      "Name": "Captain's Night",
+      "HoloPowerCost": 0,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "AttachCheerFromArchive",
+          "Amount": 1,
+          "Target": "FriendlyAnyStage",
+          "Conditions": [
+            {
+              "Type": "CenterHasCardName",
+              "Amount": 0,
+              "CardName": "Houshou Marine"
+            }
+          ],
+          "SourceZone": "Archive"
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hEB01-003",
+    "Name": "Hakui Koyori",
+    "Color": "Yellow",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Analysis Complete! Private Area for Two",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "RevealTopAndCount",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": [],
+          "MultiplyByStageCheer": true,
+          "MultiplierCap": 10,
+          "AllowedTypes": [
+            "Holomem"
+          ]
+        },
+        {
+          "Type": "TemporaryArtsBonus",
+          "Amount": 30,
+          "Target": "FriendlyCenter",
+          "Conditions": [],
+          "MultiplyByCostCount": true
+        }
+      ]
+    },
+    "SpOshiSkill": {
+      "Name": "Oshi Skill",
+      "HoloPowerCost": 0,
+      "OncePerTurn": false,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "StageSkill": {
+      "Name": "Koyo Laboratory",
+      "HoloPowerCost": 0,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": [
+        {
+          "Type": "DrawCards",
+          "Amount": 1,
+          "Target": "None",
+          "Conditions": [
+            {
+              "Type": "StageHasTag",
+              "Amount": 3,
+              "Tag": "#Summer"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Id": "hBP05-001",
+    "Name": "Shirogane Noel",
+    "Color": "White",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Knights of Shirogane",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "This Is Super Bad, Huh?",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP05-002",
+    "Name": "Airani Iofifteen",
+    "Color": "Green",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "IOFORIA~!",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Kekuatan Iofi",
+      "HoloPowerCost": 3,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP05-003",
+    "Name": "Omaru Polka",
+    "Color": "Red",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Legend of Polka",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Successful Experience!!!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP05-004",
+    "Name": "Nekomata Okayu",
+    "Color": "Blue",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Here We Go",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Yum, Yum!",
+      "HoloPowerCost": 3,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP05-005",
+    "Name": "Yuzuki Choco",
+    "Color": "Purple",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Be Smitten by Choco!",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Cooking with Choco",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP05-006",
+    "Name": "Nerissa Ravencroft",
+    "Color": "Purple",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "Liebesträume",
+      "HoloPowerCost": 1,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Shoot for the Moon",
+      "HoloPowerCost": 4,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  },
+  {
+    "Id": "hBP05-007",
+    "Name": "Shiranui Flare",
+    "Color": "Yellow",
+    "Life": 5,
+    "OshiSkill": {
+      "Name": "I Want to Be Your Source of Comfort",
+      "HoloPowerCost": 2,
+      "OncePerTurn": true,
+      "OncePerGame": false,
+      "Effects": []
+    },
+    "SpOshiSkill": {
+      "Name": "Let's Get This Party Started!",
+      "HoloPowerCost": 2,
+      "OncePerTurn": false,
+      "OncePerGame": true,
+      "Effects": []
+    }
+  }
+]

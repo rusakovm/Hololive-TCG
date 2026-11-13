@@ -1,0 +1,1026 @@
+[
+  {
+    "Id": "ENGINE_TEST_ALL_MECHANICS",
+    "Name": "Engine test: all core mechanics (draw/heal/cheer/select/die/bloom/attach)",
+    "OshiCardId": "TEST-OSHI-001",
+    "MainDeck": [
+      {
+        "CardId": "TEST-D-001",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-F-001",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-S-001",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP01-021",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-044",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-005",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-010",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-011",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-006",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-007",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-009",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-SUPPORT-002",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-MOVE-CHEER",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-020",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-021",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-MASCOT-001",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-MASCOT-SORA",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-TOOL-001",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-FAN-001",
+        "Count": 1
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 10
+      },
+      {
+        "Color": "Green",
+        "Count": 10
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_SORAZ_FULL",
+    "Name": "Engine test: all hSD01 holomem + supports (SorAZ)",
+    "OshiCardId": "hSD01-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP01-021",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP01-044",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-005",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-006",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-007",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-009",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-010",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-011",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-013",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-018",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-019",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-020",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-021",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-002",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-MOVE-CHEER",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-MASCOT-SORA",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-TOOL-001",
+        "Count": 1
+      },
+      {
+        "CardId": "TEST-FAN-001",
+        "Count": 1
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 10
+      },
+      {
+        "Color": "Green",
+        "Count": 10
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_ATTACHABLES",
+    "Name": "Engine test: Tool / Mascot / Fan attach + HP/Arts bonuses",
+    "OshiCardId": "hBP02-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP02-008",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-010",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-011",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-012",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-013",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-089",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-091",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-099",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-097",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-098",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-099",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-100",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-101",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-102",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-103",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-104",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-MASCOT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-TOOL-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-FAN-001",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 20
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_EVENTS_SELECT",
+    "Name": "Engine test: Event supports, SelectCards, archive, grant bloom",
+    "OshiCardId": "hBP06-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-010",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-011",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-012",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-013",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-014",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-085",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-087",
+        "Count": 1
+      },
+      {
+        "CardId": "hBP06-088",
+        "Count": 1
+      },
+      {
+        "CardId": "hBP06-089",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-090",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-091",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-092",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-093",
+        "Count": 1
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-095",
+        "Count": 1
+      },
+      {
+        "CardId": "hBP06-096",
+        "Count": 1
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-021",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-020",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-002",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "White",
+        "Count": 20
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_RED_AYAME",
+    "Name": "Engine test: Red holomem line + oshi skills + tools",
+    "OshiCardId": "hBP06-004",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-034",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-035",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-036",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-037",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-038",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-039",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD02-002",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD02-003",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD02-005",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-098",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD02-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD02-013",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-002",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Red",
+        "Count": 20
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_BLUE_SPECIAL",
+    "Name": "Engine test: Blue special damage, SP after damaging back, heal",
+    "OshiCardId": "hSD03-001",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-048",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-049",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-050",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-051",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-052",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-053",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-101",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD03-012",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-105",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-SUPPORT-002",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-D-001",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-F-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-S-001",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Blue",
+        "Count": 20
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_PURPLE_ARCHIVE",
+    "Name": "Engine test: Archive select, EN tags, myth arts bonus",
+    "OshiCardId": "hBP02-007",
+    "MainDeck": [
+      {
+        "CardId": "hBP02-054",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-055",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-056",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-057",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-058",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-059",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-061",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-062",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-063",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-064",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-072",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-079",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-MOVE-CHEER",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-D-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-F-001",
+        "Count": 1
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Purple",
+        "Count": 20
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_DICE",
+    "Name": "Engine test: RollDie, DeclareDieResult, RerollDie, outcomes",
+    "OshiCardId": "hSD01-002",
+    "MainDeck": [
+      {
+        "CardId": "hBP01-044",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-009",
+        "Count": 4
+      },
+      {
+        "CardId": "hSD01-010",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-011",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP01-021",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-005",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-006",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-020",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-085",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-D-001",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-F-001",
+        "Count": 3
+      },
+      {
+        "CardId": "TEST-S-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-002",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-MOVE-CHEER",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-021",
+        "Count": 1
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Green",
+        "Count": 12
+      },
+      {
+        "Color": "White",
+        "Count": 8
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_YELLOW_MATSURI",
+    "Name": "Engine test: Yellow Matsuri + fans + support storm",
+    "OshiCardId": "hBP06-008",
+    "MainDeck": [
+      {
+        "CardId": "hBP06-072",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-073",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP06-074",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-075",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-076",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-077",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-102",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-103",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-086",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-094",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP06-085",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-091",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-092",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP06-093",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-FAN-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-D-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-F-001",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Yellow",
+        "Count": 20
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  },
+  {
+    "Id": "ENGINE_TEST_GREEN_CHEER",
+    "Name": "Engine test: multi-color cheer, archive cheer, collab triggers",
+    "OshiCardId": "hBP02-002",
+    "MainDeck": [
+      {
+        "CardId": "hBP02-017",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-018",
+        "Count": 4
+      },
+      {
+        "CardId": "hBP02-019",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-020",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-021",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-022",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-023",
+        "Count": 3
+      },
+      {
+        "CardId": "hBP02-081",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-094",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-070",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP02-071",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-016",
+        "Count": 3
+      },
+      {
+        "CardId": "hSD01-017",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-104",
+        "Count": 2
+      },
+      {
+        "CardId": "hBP01-108",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-MOVE-CHEER",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-SUPPORT-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-D-001",
+        "Count": 2
+      },
+      {
+        "CardId": "TEST-F-001",
+        "Count": 2
+      },
+      {
+        "CardId": "hSD01-012",
+        "Count": 2
+      }
+    ],
+    "CheerDeck": [
+      {
+        "Color": "Green",
+        "Count": 12
+      },
+      {
+        "Color": "White",
+        "Count": 4
+      },
+      {
+        "Color": "Red",
+        "Count": 4
+      }
+    ],
+    "ValidationRules": {
+      "RequiredMainDeckSize": 50,
+      "RequiredCheerDeckSize": 20,
+      "MaxCopiesPerCard": 8
+    }
+  }
+]
